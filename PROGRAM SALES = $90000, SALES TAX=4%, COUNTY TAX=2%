@@ -1,0 +1,12 @@
+ #include<iostream>
+ #include<cmath>
+ using namespace std;
+ int main() {
+    double sales=90000;
+    cout<<"Sales:$"<<sales<<"\n";
+    double SalesTax=sales*.04;
+    cout<<"Sales Tax:$"<<SalesTax<<"\n";
+    double CountyTax=sales*.02;
+    cout<<"County Tax:$"<<CountyTax;
+    return 0;
+ }
